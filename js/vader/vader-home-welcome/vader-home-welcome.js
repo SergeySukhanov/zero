@@ -21,7 +21,7 @@ YUI.add('vader-home-welcome', function (Y) {
         Y.log('login:'+login+' pass:'+password);
 
         var rnn = Math.random()*1000;
-        Y.io("/demo/api/users.json?"+rnn, {
+        Y.io("/api/users.json?"+rnn, {
             timeout: 15000,
             on: {
                 success: function(x, o){
