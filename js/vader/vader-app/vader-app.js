@@ -1,5 +1,5 @@
 YUI.add('vader-app', function (Y) {
-    var URL_ROOT       = '/demo/';
+    var URL_ROOT       = '/zero/';
 //    var URL_DASH       = '/demo/dashboard';
 //    var URL_DASH_IFR       = '/demo/dashboard_qv';
 
