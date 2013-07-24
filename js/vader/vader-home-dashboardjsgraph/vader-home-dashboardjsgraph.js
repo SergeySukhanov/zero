@@ -34,7 +34,7 @@ YUI.add('vader-home-dashboardjsgraph', function (Y) {
 
             if(data == null){
 
-            Y.io('/demo/api/' + user.id + '/data.json?' + Math.random() * 1000, {
+            Y.io('/api/' + user.id + '/data.json?' + Math.random() * 1000, {
                 timeout: 15000,
                 on: {
                     success: function(x, o){
