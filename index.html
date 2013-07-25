@@ -958,35 +958,35 @@ function onJsGraphDataLoad(series) {
 //            pointInterval:1000*300
         }
         ,
-        {
-            name: "deep sleep",
-            data: dataDS,
-            type: 'area'
-            ,step: true
-            ,lineWidth:0
-            ,fillOpacity: 0.4
-            , color: "#6a7379"
-            ,pointPadding: 0
-            ,groupPadding:0
-            , tooltip: {
-//                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
-                pointFormat: ''
-            }
-        },
-        {
-            name: "light sleep",
-            data: dataLS,
-            type: 'area'
-            ,step: true
-            ,lineWidth:0
-            ,fillOpacity: 0.4
-            , color: "#c0c7ce"
-            ,pointPadding: 0
-            ,groupPadding:0
-            , tooltip: {
-//                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
-            pointFormat: ''
-        }
+        // {
+            // name: "deep sleep",
+            // data: dataDS,
+            // type: 'area'
+            // ,step: true
+            // ,lineWidth:0
+            // ,fillOpacity: 0.4
+            // , color: "#6a7379"
+            // ,pointPadding: 0
+            // ,groupPadding:0
+            // , tooltip: {
+// //                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
+                // pointFormat: ''
+            // }
+        // },
+        // {
+            // name: "light sleep",
+            // data: dataLS,
+            // type: 'area'
+            // ,step: true
+            // ,lineWidth:0
+            // ,fillOpacity: 0.4
+            // , color: "#c0c7ce"
+            // ,pointPadding: 0
+            // ,groupPadding:0
+            // , tooltip: {
+// //                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
+            // pointFormat: ''
+        // }
         },
 //        {
 //            name: "calendar event",
@@ -1087,7 +1087,7 @@ function onJsGraphDataLoad(series) {
         	enabled:false
         },
 
-        yAxis: {
+        xAxis: {
 //            allowDecimals:false,
 //            labels: {
 //                formatter: function () {
