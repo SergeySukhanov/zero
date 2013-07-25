@@ -44,7 +44,10 @@ function updateClock ( )
   var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
 
   // Update the time display
-  document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+  var clock = document.getElementById("clock");
+  if(clock != null){
+  	clock.innerHTML = currentTimeString;
+  }
 }
 
 </script>
