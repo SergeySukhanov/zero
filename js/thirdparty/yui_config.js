@@ -19,7 +19,7 @@ var YUI_setConfig = function (contextPath) {
 
             },
             highstock: {
-                base: 'js/thidparty/',
+                base: 'js/thirdparty/',
                 async: false,
                 modules: {
                     'highstock': {
@@ -29,7 +29,7 @@ var YUI_setConfig = function (contextPath) {
 
             },
             flot: {
-                base: 'js/thidparty/flot/',
+                base: 'js/thirdparty/flot/',
                 async: false,
                 modules: {
                     'flot': {
