@@ -154,3 +154,8 @@ text {
     font-size: 14px;
     color: #ffffff;
 }
+
+.smallGraph{
+	position:relative;
+	display:inline-block;
+}
