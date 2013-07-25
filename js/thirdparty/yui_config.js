@@ -5,7 +5,7 @@ var YUI_setConfig = function (contextPath) {
         //base: 'js/yui/',
         groups: {
             jquery: {
-                base: 'js/thidparty/',
+                base: 'js/thirdparty/',
                 async: false,
                 modules: {
                     'jquery': {
