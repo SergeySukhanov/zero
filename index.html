@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=9">
@@ -624,7 +623,7 @@
 		}
 
 	</script>
-=======
+
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=9">
@@ -1033,8 +1032,11 @@ function onJsGraphDataLoad(series) {
     var calEvent = [];
 
     var prevStress =0;
+    var currentDate = new Date().getTime();
+    var prevDay = currentDate - 864000000;
     for (var i = 0; i <= dataLength; ++i) {
         var measurement = graphData[i];
+        if (measurement.time<prevDay) continue;
 //        dataHR.push(measurement.heartRate);
         dataHR.push([measurement.time, measurement.heartRate]);
 //        dataStp.push(measurement.steps);
@@ -1253,5 +1255,4 @@ function onJsGraphDataLoad(series) {
 }
 
 </script>
->>>>>>> b37c2db89761c956d02d229d0ba212548ec092cc
 </html>
