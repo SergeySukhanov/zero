@@ -367,34 +367,7 @@
 					enabled : false
 				    }
 			   },
-		       {
-				name : "deep sleep",
-				data : dataDS,
-				type : 'area',
-				step : true,
-				lineWidth : 0,
-				fillOpacity : 0.4,
-				color : "#6a7379",
-				pointPadding : 0,
-				groupPadding : 0,
-				tooltip : {
-					pointFormat : ''
-				   }
-			   }, 
-			   {
-				name : "light sleep",
-				data : dataLS,
-				type : 'area',
-				step : true,
-				lineWidth : 0,
-				fillOpacity : 0.4,
-				color : "#c0c7ce",
-				pointPadding : 0,
-				groupPadding : 0,
-				tooltip : {
-					pointFormat : ''
-				   }
-			   },
+		       
 			    {
 				name : "steps",
 				data : dataStp,
@@ -462,26 +435,18 @@
 
 					xAxis : {
 						gridLineWidth:1,
-						startOnTick:true,
-						ordinal:true,
-						endOnTick:true,
-						gridLineColor:'#00ff00',
 						plotLines : [{
 							value : 0,
-							width : 50,
-							color : 'green'
+							width : 1,
+							color : 'silver'
 						}]
 					},
 					yAxis : {
 						gridLineWidth:0,
-						startOnTick:false,
-						ordinal:false,
-						endOnTick:false,
-						gridLineColor:'#ff0000',
 						plotLines : [{
 							value : 0,
-							width : 50,
-							color : 'red'
+							width : 1,
+							color : 'silver'
 						}]
 					},
 
