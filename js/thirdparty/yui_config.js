@@ -5,7 +5,7 @@ var YUI_setConfig = function (contextPath) {
         //base: 'js/yui/',
         groups: {
             jquery: {
-                base: 'js/',
+                base: 'js/thirdparty/',
                 async: false,
                 modules: {
                     'jquery': {
@@ -19,7 +19,7 @@ var YUI_setConfig = function (contextPath) {
 
             },
             highstock: {
-                base: 'js/',
+                base: 'js/thirdparty/',
                 async: false,
                 modules: {
                     'highstock': {
@@ -29,7 +29,7 @@ var YUI_setConfig = function (contextPath) {
 
             },
             flot: {
-                base: 'js/flot/',
+                base: 'js/thirdparty/flot/',
                 async: false,
                 modules: {
                     'flot': {

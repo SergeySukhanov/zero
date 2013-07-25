@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=9">
@@ -623,4 +624,634 @@
 		}
 
 	</script>
+=======
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>ZERO</title>
+
+<link rel="stylesheet" media="screen" href="css/main_styles.css"/>
+
+<script src="js/thirdparty/yui_config.js"></script>
+<script>
+    YUI_setConfig('');
+</script>
+<script src="js/thirdparty/jquery-1.9.1.js"></script>
+<!--<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.js"></script>-->
+<script src="js/thirdparty/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/thirdparty/bootstrap.js"></script>
+
+<!--[if lte IE 8]>&lt;!&ndash;<script language="javascript" type="text/javascript" src="js/flot/excanvas.min.js"></script><![endif]&ndash;&gt;-->
+<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.js"></script>-->
+<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.selection.js"></script>-->
+<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.time.js"></script>-->
+<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.threshold.js"></script>-->
+<!--<script language="javascript" type="text/javascript" src="http://alexb.domain.corp/QvAJAXZfc/htc/QvAjax.js"></script>-->
+<!--<script src="js/highstock/highstock.js"></script>-->
+
+<script src="//yui.yahooapis.com/3.11.0/build/yui/yui-min.js"></script>
+</head>
+<body>
+<div id="page">
+    <div id="menu" style="display: none">
+
+    </div>
+    <div id="body">
+    </div>
+</div>
+</body>
+
+<script>
+    YUI().use('vader-app', function (Y) {
+        new Y.Vader.App({
+            serverRouting: false,
+            transitions: true
+        }).render().dispatch();
+    });
+    $(function () {
+        $.noConflict(true);
+    });
+</script>
+<script id="t-welcome" type="text/x-template">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%"
+         height="100%" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid" id="outer_svg">
+        <!--
+            <line x1="50%" y1="0" x2="50%" y2="100%" stroke="green" />
+            <line x1="0" y1="50%" x2="100%" y2="50%" stroke="green" />
+        -->
+        <g id="center_g">
+            <g id="hsa">
+                <text text-anchor="middle" x="50%" y="20%" style="font-size: 100" id="human">human</text>
+                <text text-anchor="middle" x="50%" y="35%" style="font-size: 100" id="simple">simple</text>
+                <text text-anchor="middle" x="50%" y="50%" style="font-size: 100" id="authentic">authentic</text>
+            </g>
+            <g id="logo">
+                <image width="212" height="44" x="50%" y="60%" transform="translate(-106, -22)"
+                       xlink:href="img/zero_logo.png"></image>
+            </g>
+            <g id="other_text">
+                <g id="wea">
+                    <text text-anchor="middle" x="50%" y="75%" style="font-size: 25">Want Early Access?</text>
+                    <text text-anchor="middle" x="50%" y="80%" style="font-size: 20">log in</text>
+                    <image width="40" height="30" x="50%" y="75%" transform="translate(-15, 10)" id="login_btn"
+                           xlink:href="img/1x1.png" pointer-events="all"></image>
+                </g>
+                <g id="logins">
+                    <image width="30" height="31" x="50%" y="85%" transform="translate(-80, 0)"
+                           xlink:href="img/facebook.png"></image>
+                    <image width="30" height="33" x="50%" y="85%" transform="translate(-15, 0)"
+                           xlink:href="img/googleplus.png"></image>
+                    <image width="30" height="31" x="50%" y="85%" transform="translate(50, 0)"
+                           xlink:href="img/mail.png" id="show_form_btn" pointer-events="all"/>
+                </g>
+                <g id="dontworry">
+                    <text text-anchor="middle" x="50%" y="93%" style="font-size: 12">It's fast and easy. We promise
+                        never to
+                    </text>
+                    <text text-anchor="middle" x="50%" y="95%" style="font-size: 12">post anything without your
+                        permission.
+                    </text>
+                </g>
+            </g>
+        </g>
+        <svg id="inner_svg">
+            <g id="pies"></g>
+        </svg>
+        <defs id="defs">
+            <radialGradient id="rad_grad">
+                <stop offset="80%" stop-color="black" stop-opacity="0"/>
+                <stop offset="110%" stop-color="black" stop-opacity="1"/>
+            </radialGradient>
+        </defs>
+        <rect width="100%" height="100%" x="0" y="0" fill="url(#rad_grad)"/>
+    </svg>
+    <div id="fog" class="main-div"></div>
+    <div id="div_form" class="dots main-div">
+        <form id="email_form" method="post">
+            <input type="text" placeholder="your@email.com" name="email" id="email_input">
+        </form>
+        <div id="splain" class="main-div">&nbsp;</div>
+    </div>
+    <div id="div_thanks" class="dots main-div">Thanks! We'll be in touch.</div>
+    <div id="main" class="main-div"></div>
+</script>
+<script>
+// globals
+var w = 800, // viewport
+        h = 600, // vewport
+        NS = "http://www.w3.org/2000/svg",
+        origin_count = 3, // # of pie centers
+        slices_count = 9, // # of slices per pie
+        pies = [],
+        velos = [];
+
+// form stuff
+var $form = $("#div_form");
+var $input = $("#email_input");
+var $fog = $("#fog");
+var $thx = $("#div_thanks");
+var $splain = $("#splain");
+var FADE = 600;
+var DELAY = 3000;
+
+var animateID = 0;
+
+/*
+ // hide everything when doc loads
+ $(document).ready(function(){
+ $fog.hide();
+ $form.hide();
+ $thx.hide();
+ });
+
+ // show the form when the button is clicked
+ // tough to select the SVG element directly, so grab it first, then stick it in jquery context; clever, no? ;)
+ var button = document.getElementById("show_form_btn");
+ $(button).click( function(){
+ $fog.fadeIn(FADE);
+ $form.fadeIn(FADE);
+ });
+ // ok now
+ $input.focus( function() {
+ $splain.text(" (Hit return to submit)");
+ });
+
+ // hide form, show thx
+ // then clear it all
+ $form.submit( function(event){
+ event.preventDefault();
+ var fw = $form.width();
+ var fh = $form.height();
+ $form.fadeOut(100, function() {
+ $(this).text("Thanks. We'll be in touch.").fadeIn(100).delay(DELAY).fadeOut(FADE);
+ $form.width( fw );
+ $form.height( fh );
+ $form.delay(DELAY).fadeOut(FADE);
+ $fog.delay(DELAY).fadeOut(FADE);
+ });
+ });
+
+ // hide the form if click out anywhere else
+ $fog.click( function(){
+ $fog.fadeOut(FADE);
+ $form.fadeOut(FADE);
+ $thx.fadeOut(FADE);
+ });
+
+
+ // animate
+ // start with random velocities
+ var velos = [];
+ for ( i = 0; i < pies.length; i++ ) {
+ velos[i] = new Vect( rnd_bmt() );
+ }
+ */
+
+
+function stopAnimation() {
+    clearInterval(animateID);
+}
+
+function animate(pies) {
+    function frame() {
+        for (i = 0; i < pies.length; i++) {
+            // bounce off the walls
+            if (pies[i].origin.x <= 0 || pies[i].origin.x >= w) {
+                velos[i].x *= -1;
+            }
+            if (pies[i].origin.y <= 0 || pies[i].origin.y >= h) {
+                velos[i].y *= -1;
+            }
+
+            pies[i].origin.add(velos[i]);
+            pies[i].draw();
+        }
+    }
+
+    animateID = setInterval(frame, 10) // draw every 10ms
+}
+
+//***** Vector *****//
+function Vect(p) {
+    this.x = p.x;
+    this.y = p.y;
+
+    this.mag = function () {
+        return Math.sqrt(this.x * this.x + this.y * this.y);
+    };
+
+    this.heading = function () {
+        return Math.tan(y / x);
+    };
+}
+
+//***** Point *****//
+function Point(x, y) {
+    this.x = x;
+    this.y = y;
+
+    this.add = function (pt) {
+        this.x += pt.x;
+        this.y += pt.y;
+    };
+    this.sub = function (pt) {
+        this.x -= pt.x;
+        this.y -= pt.y;
+    };
+    this.mult = function (n) {
+        this.x *= n;
+        this.y *= n;
+    };
+    this.div = function (n) {
+        this.x /= n;
+        this.y /= n;
+    }
+}
+
+//***** Slice *****//
+function Slice(origin, point1, point2) {
+    this.o = origin;
+    this.p1 = point1;
+    this.p2 = point2;
+}
+
+//***** Pie *****//
+function Pie(origin, slices_count, id) {
+    this.origin = origin;
+    this.id = id;
+    this.slices = [];
+
+    // make slices
+    var total_angle = 0;
+    var point1 = get_offscreen_point(origin, total_angle);
+    var start_point = point1;
+
+
+    for (var i = 0; i < slices_count; i++) {
+        var angle = get_random_angle(slices_count);
+        total_angle += ( ( total_angle + angle ) >= 2 * Math.PI ) ? 0 : angle;
+        var point2 = get_offscreen_point(origin, total_angle);
+
+        // close it if last slice
+        if (i == slices_count - 1) {
+            point2 = start_point;
+        }
+        this.slices.push(new Slice(origin, point1, point2));
+        point1 = point2;
+    }
+
+    // update the origin and slices
+    this.setOrigin = function (new_origin) {
+        this.origin = new_origin;
+
+        for (var i = 0; i < this.slices.length; i++) {
+            this.slices[i].o = this.origin;
+        }
+    };
+
+    this.draw = function () {
+        var parent = document.getElementById("pies");
+        if (!parent) return;
+        var defs = document.getElementById("defs");
+
+        // if it no exist, create it!
+        var pie_node = document.getElementById(this.id);
+        if (pie_node == null) {
+            pie_node = document.createElementNS(NS, "g");
+            pie_node.setAttribute("id", this.id);
+            parent.appendChild(pie_node);
+        }
+
+        for (var i = 0; i < this.slices.length; i++) {
+
+            // make or update path in defs
+            var id = this.id + "_path_" + i;
+            // get or create path
+            var is_new = false;
+            var path = document.getElementById(id);
+            if (path == null) {
+                path = document.createElementNS(NS, "path");
+                path.setAttribute("id", id);
+                path.setAttribute("class", 'path');
+                defs.appendChild(path);
+                is_new = true;
+            }
+
+            // path data
+            var d =
+                    "M" + Math.round(this.slices[i].o.x) + ", " + Math.round(this.slices[i].o.y) +
+                            "L" + Math.round(this.slices[i].p1.x) + ", " + Math.round(this.slices[i].p1.y) +
+                            "L" + Math.round(this.slices[i].p2.x) + ", " + Math.round(this.slices[i].p2.y) +
+                            "Z";
+            path.setAttribute("d", d);
+
+            // randomly opaque if new
+            if (is_new) {
+                var fill_opacity = Math.random() * .25;
+                path.setAttribute("fill-opacity", fill_opacity);
+//				path.setAttribute("start_fill-opacity",fill_opacity);
+            }
+
+            // make or update use
+            var use = document.getElementById("use_" + id);
+            if (use == null) {
+                use = document.createElementNS(NS, "use");
+                pie_node.appendChild(use);
+            }
+            use.setAttribute("id", "use_" + id);
+            use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#" + id);
+        }
+    }
+}
+//***** UTILITIES *****//
+
+// given a number of pie slices
+// return a random but not too random slice theta
+function get_random_angle(c) {
+    return 2 * Math.PI / c * ( Math.random() + .5 );
+}
+
+// given an origin and an angle
+// return a point that is definitely off-screen
+function get_offscreen_point(origin, angle) {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var radius = Math.sqrt(w * w + h * h); // x^2 + y^2 = z^2
+    return new Point(origin.x + Math.cos(angle) * radius, origin.y + Math.sin(angle) * radius);
+}
+
+//Box-Muller transform for standard normal distribution random numbers
+function rnd_bmt() {
+    var x = 0, y = 0, rds, c;
+
+    // Get two random numbers from -1 to 1.
+    // If the radius is zero or greater than 1, throw them out and pick two new ones
+    // Rejection sampling throws away about 20% of the pairs.
+    do {
+        x = Math.random() * 2 - 1;
+        y = Math.random() * 2 - 1;
+        rds = x * x + y * y;
+    }
+    while (rds == 0 || rds > 1)
+
+    // This magic is the Box-Muller Transform
+    c = Math.sqrt(-2 * Math.log(rds) / rds);
+
+    // It always creates a pair of numbers. I'll return them in an array.
+    // This function is quite efficient so don't be afraid to throw one away if you don't need both.
+    return new Point(x * c, y * c);
+}
+
+function rdm(n) {
+    var sign = Math.random() < .5 ? -1 : 1;
+    return sign * Math.random() * n;
+}
+
+/***************************************************************************/
+
+var graphData = null;
+
+// LOAD DATA FROM SERVER: http://www.highcharts.com/component/content/article/2-news/48-loading-millions-of-points-in-highcharts
+
+function onJsGraphDataLoad(series) {
+//    stopAnimation();
+    graphData = series;
+//    var dataLength = 100;
+    var dataLength = graphData.length - 1;
+
+    var data = [];
+
+    var dataHR = [];
+    var dataDS = [];
+    var dataLS = [];
+    var dataStp = [];
+    var dataHyd = [];
+    var dataStressGr = [];
+    var dataStressYl = [];
+    var dataStressRd = [];
+    var calEvent = [];
+
+    var prevStress =0;
+    for (var i = 0; i <= dataLength; ++i) {
+        var measurement = graphData[i];
+//        dataHR.push(measurement.heartRate);
+        dataHR.push([measurement.time, measurement.heartRate]);
+//        dataStp.push(measurement.steps);
+        dataStp.push([measurement.time, measurement.steps]);
+        dataDS.push([measurement.time, measurement.deepSleep ? 20 : 0]);
+        dataLS.push([measurement.time, measurement.lightSleep ? 10 : 0]);
+        dataHyd.push([measurement.time, measurement.hydration]);
+
+        dataStressGr.push([measurement.time, measurement.stress]);
+//        if(measurement.stress < 25){
+//            dataStressGr.push([measurement.time, measurement.stress]);
+//            if(prevStress==1) dataStressYl.push([measurement.time, measurement.stress]);
+//                         else dataStressYl.push([measurement.time, null]);
+//            if(prevStress==2) dataStressRd.push([measurement.time, measurement.stress]);
+//                         else dataStressRd.push([measurement.time, null]);
+//
+//            dataStressRd.push([measurement.time, null]);
+//            prevStress = 0;
+//        } else if (measurement.stress < 50){
+//            if(prevStress==0) dataStressGr.push([measurement.time, measurement.stress]);
+//                        else dataStressGr.push([measurement.time, null]);
+//            dataStressYl.push([measurement.time, measurement.stress]);
+//            if(prevStress==2) dataStressRd.push([measurement.time, measurement.stress]);
+//            else dataStressRd.push([measurement.time, null]);
+//            prevStress = 1;
+//        } else {
+//            if(prevStress==0) dataStressGr.push([measurement.time, measurement.stress]);
+//            else dataStressGr.push([measurement.time, null]);
+//            if(prevStress==1) dataStressYl.push([measurement.time, measurement.stress]);
+//            else dataStressYl.push([measurement.time, null]);
+//            dataStressRd.push([measurement.time, measurement.stress]);
+//            prevStress = 2;
+//        }
+//        calEvent.push([measurement.time, (measurement.cEvent ? -10 : 0)]);
+    }
+
+    data = [
+        {
+            name: "heart rate",
+            data: dataHR,
+            type: 'spline',
+            dashStyle: 'Dash'
+            ,lineWidth:1
+            , color: "#d83b3b"
+            ,dataGrouping: { enabled: false }
+//            pointStart:graphData[0].time,
+//            pointInterval:1000*300
+        }
+        ,
+        {
+            name: "deep sleep",
+            data: dataDS,
+            type: 'area'
+            ,step: true
+            ,lineWidth:0
+            ,fillOpacity: 0.4
+            , color: "#6a7379"
+            ,pointPadding: 0
+            ,groupPadding:0
+            , tooltip: {
+//                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
+                pointFormat: ''
+            }
+        },
+        {
+            name: "light sleep",
+            data: dataLS,
+            type: 'area'
+            ,step: true
+            ,lineWidth:0
+            ,fillOpacity: 0.4
+            , color: "#c0c7ce"
+            ,pointPadding: 0
+            ,groupPadding:0
+            , tooltip: {
+//                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
+            pointFormat: ''
+        }
+        },
+//        {
+//            name: "calendar event",
+//            data: calEvent
+//        },
+        {
+            name: "steps",
+            data: dataStp,
+            type: 'spline',
+            dashStyle: 'Dash'
+            ,lineWidth:1
+        }
+,
+        {
+            name: "hydration",
+            id: "hydration",
+            type: 'spline',
+            data: dataHyd
+            , color: "#88b0ff"
+            ,lineWidth:1
+            , tooltip: {
+            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
+        }
+        },
+        {
+            name: "stress",
+            id: "stress",
+            type: 'area',
+            data: dataStressGr
+            ,lineWidth:0
+            ,fillOpacity: 0.2
+            ,color: '#FF5050'
+            , tooltip: {
+                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
+            }
+//            ,threshold:50
+        }
+//        ,{
+//            id: "stress2",
+//            linkedTo:'stress',
+//            type: 'area',
+//            data: dataStressYl
+//            ,lineWidth:1
+//        }
+//        ,{
+//            id: "stress3",
+//            linkedTo:'stress',
+//            type: 'area',
+//            data: dataStressRd
+//            ,lineWidth:1
+//        }
+    ];
+
+//    var yAxisOptions = [];
+//    var colors = Highcharts.getOptions().colors;
+
+    try{
+
+    $('#placeholder').highcharts('StockChart', {
+        chart: {
+//                zoomType:'x'
+//            type: 'arearange'
+        },
+        credits:{
+            enabled:false
+        },
+//        exporting:{
+//            enabled:false
+//        },
+        legend:{
+            enabled:false,
+//            floating: true,
+            align:'right',
+            verticalAlign:'middle',
+            layout: 'vertical'
+
+        },
+
+        colors: [
+            '#2f7ed8',
+            '#0d233a',
+            '#8bbc21',
+            '#910000',
+            '#1aadce',
+            '#492970',
+            '#f28f43',
+            '#77a1e5',
+            '#c42525',
+            '#a6c96a'
+        ],
+         rangeSelector: {
+            enabled:false
+        },
+        navigator:{
+        	enabled:false
+        },
+        scrollbar:{
+        	enabled:false
+        },
+
+        yAxis: {
+//            allowDecimals:false,
+//            labels: {
+//                formatter: function () {
+//                    return (this.value > 0 ? '+' : '') + this.value;
+//                }
+//            },
+            plotLines: [
+                {
+                    value: 0,
+                    width: 1,
+                    color: 'silver'
+                }
+            ]
+       },
+
+        // plotOptions: {
+           // series: {
+                // dashStyle: 'Dash'
+                // ,compare: 'percent'
+// 
+            // }
+        // },
+// 
+       // tooltip: {
+           // pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b><br/>',
+            // valueDecimals: 2
+           // ,tooltipPoints: 1
+        // },
+
+        series: data
+    });
+
+    } catch (e){
+        console.log(e)
+        throw e;
+    }
+}
+
+</script>
+>>>>>>> b37c2db89761c956d02d229d0ba212548ec092cc
 </html>
