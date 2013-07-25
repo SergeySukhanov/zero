@@ -26,7 +26,10 @@ YUI.add('vader-home-dashboardjsgraph', function (Y) {
 
             var container = Y.one('#body');
             container.setHTML(
-                '<div id="placeholder" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'
+                '<div id="placeholder" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'+
+                '<div id="placeholderSleep" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'+
+                '<div id="placeholderEating" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'+
+                '<div id="placeholderStress" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'
 //                    +
 //                '<div class="clearfix"></div>' +
 //                '<div id="overview" class="demo-placeholder" style="float:left;width:90%; height:125px;"></div>'
