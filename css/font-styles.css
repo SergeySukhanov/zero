@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-Bold.woff) format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-Bolditalic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-Heavy.woff) format('woff');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-heavyItalic.woff) format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-Light.woff) format('woff');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-LightItalic.woff) format('woff');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-Medium.woff) format('woff');
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-MediumItalic.woff) format('woff');
+    font-weight: medium;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Zero";
+    src: url(fonts/Zero-RegularItalic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

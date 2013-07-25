@@ -1,0 +1,156 @@
+@import "font-styles.css" screen;
+@import "bootstrap.css" screen;
+
+body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+    background-image: url("img/bkg.png");
+}
+
+#outer_svg {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    pointer-events: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid yellow;
+    background: black;
+}
+
+.path {
+    stroke: gray;
+    stroke-opacity: .25;
+    fill: #365F68;
+    stroke-width: .5;
+}
+
+text {
+    fill: gray;
+    stroke: none;
+    font-family: Zero-Light;
+}
+
+    /*
+            canvas {
+                position: absolute;
+                display: block;
+                padding: 1px;
+                z-index: 100;
+                vertical-align: middle;
+                text-align: center;
+                font-family: Zero-Regular;
+                font-size: 1em;
+                background: black;
+                opacity: 1;
+            }
+    */
+
+.main-div {
+    position: absolute;
+    display: block;
+    padding: 1px;
+    z-index: 100;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Zero-Regular;
+    font-size: 1em;
+    background: black;
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+:-moz-placeholder {
+    color: #999;
+}
+
+::-moz-placeholder {
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+}
+
+#div_form {
+    padding: 2%;
+    top: 60%;
+    left: 40%;
+    color: white;
+}
+
+#div_form input {
+    position: relative;
+    width: 100%;
+    padding: 1px;
+    font-family: Zero-Regular;
+    font-size: 1em;
+    background-color: black;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    vertical-align: middle;
+}
+
+#div_form input:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#div_form input:focus {
+    outline: none;
+}
+
+#splain {
+    position: relative;
+    color: white;
+    font-size: .5em;
+    text-align: left;
+}
+
+.dots {
+    border: 1px dashed #00D1FA;
+}
+
+#fog {
+    background: black;
+    opacity: .5;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.QvInlineObject {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.demo-placeholder {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+.legend table {
+    border-spacing: 5px;
+}
+
+.flot-tick-label .tickLabel {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.yAxis .xAxis {
+    font-size: 14px;
+    color: #ffffff;
+}

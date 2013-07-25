@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<!--<html xmlns="http://www.w3.org/1999/html">-->
 <html>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<title></title>
+<title>ZERO</title>
 
-<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+<link rel="stylesheet" media="screen" href="css/main_styles.css"/>
 
-<script language="javascript" type="text/javascript" src="js/yui_config.js"></script>
-<script language="javascript" type="text/javascript">
+<script src="js/yui_config.js"></script>
+<script>
     YUI_setConfig('');
 </script>
-<script language="javascript" type="text/javascript" src="js/flot/jquery.js"></script>
+<script src="js/flot/jquery.js"></script>
 <!--<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.js"></script>-->
-<script language="javascript" type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script language="javascript" type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/bootstrap.js"></script>
 
 <!--[if lte IE 8]>&lt;!&ndash;<script language="javascript" type="text/javascript" src="js/flot/excanvas.min.js"></script><![endif]&ndash;&gt;-->
 <!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.js"></script>-->
@@ -27,229 +26,6 @@
 <!--<script src="js/highstock/highstock.js"></script>-->
 
 <script src="//yui.yahooapis.com/3.11.0/build/yui/yui-min.js"></script>
-<style>
-
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-Bold.woff) format('woff');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-Bolditalic.woff) format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-Heavy.woff) format('woff');
-    font-weight: bolder;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-heavyItalic.woff) format('woff');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-Light.woff) format('woff');
-    font-weight: lighter;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-LightItalic.woff) format('woff');
-    font-weight: lighter;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-Medium.woff) format('woff');
-    font-weight: medium;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-MediumItalic.woff) format('woff');
-    font-weight: medium;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-Regular.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Zero";
-    src: url(fonts/Zero-RegularItalic.woff) format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-body {
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: black;
-    background-image: url("img/bkg.png");
-}
-
-#outer_svg {
-    position: absolute;
-    z-index: 1;
-    display: block;
-    pointer-events: none;
-    margin: 0px;
-    padding: 0px;
-    border: 0px solid yellow;
-    background: black;
-}
-
-.path {
-    stroke: gray;
-    stroke-opacity: .25;
-    fill: #365F68;
-    stroke-width: .5;
-}
-
-text {
-    fill: gray;
-    stroke: none;
-    font-family: Zero-Light;
-}
-
-    /*
-            canvas {
-                position: absolute;
-                display: block;
-                padding: 1px;
-                z-index: 100;
-                vertical-align: middle;
-                text-align: center;
-                font-family: Zero-Regular;
-                font-size: 1em;
-                background: black;
-                opacity: 1;
-            }
-    */
-
-.main-div {
-    position: absolute;
-    display: block;
-    padding: 1px;
-    z-index: 100;
-    vertical-align: middle;
-    text-align: center;
-    font-family: Zero-Regular;
-    font-size: 1em;
-    background: black;
-    opacity: 1;
-}
-
-::-webkit-input-placeholder {
-    color: #999;
-}
-
-:-moz-placeholder {
-    color: #999;
-}
-
-::-moz-placeholder {
-    color: #999;
-}
-
-:-ms-input-placeholder {
-    color: #999;
-}
-
-#div_form {
-    padding: 2%;
-    top: 60%;
-    left: 40%;
-    color: white;
-}
-
-#div_form input {
-    position: relative;
-    width: 100%;
-    padding: 1px;
-    font-family: Zero-Regular;
-    font-size: 1em;
-    background-color: black;
-    border: 0px;
-    border-bottom: 1px solid gray;
-    vertical-align: middle;
-}
-
-#div_form input:hover {
-    color: white;
-    border-bottom: 1px solid white;
-}
-
-#div_form input:focus {
-    outline: none;
-}
-
-#splain {
-    position: relative;
-    color: white;
-    font-size: .5em;
-    text-align: left;
-}
-
-.dots {
-    border: 1px dashed #00D1FA;
-}
-
-#fog {
-    background: black;
-    opacity: .5;
-    z-index: 50;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-}
-
-.QvInlineObject {
-    position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-}
-
-.demo-placeholder {
-    width: 100%;
-    height: 100%;
-    font-size: 14px;
-    line-height: 1.2em;
-}
-
-.legend table {
-    border-spacing: 5px;
-}
-
-.flot-tick-label .tickLabel {
-    font-size: 14px;
-    color: #ffffff;
-}
-
-.yAxis .xAxis {
-    font-size: 14px;
-    color: #ffffff;
-}
-</style>
 </head>
 <body>
 <div id="page">
@@ -261,7 +37,7 @@ text {
 </div>
 </body>
 
-<script language="javascript" type="text/javascript">
+<script>
     YUI().use('vader-app', function (Y) {
         new Y.Vader.App({
             serverRouting: false,
@@ -270,7 +46,6 @@ text {
     });
     $(function () {
         $.noConflict(true);
-//        $plot = jQuery.plot;
     });
 </script>
 <script id="t-welcome" type="text/x-template">
@@ -336,7 +111,7 @@ text {
     <div id="div_thanks" class="dots main-div">Thanks! We'll be in touch.</div>
     <div id="main" class="main-div"></div>
 </script>
-<script language="javascript" type="text/javascript">
+<script>
 // globals
 var w = 800, // viewport
         h = 600, // vewport
@@ -678,7 +453,7 @@ function onJsGraphDataLoad(series) {
             type: 'spline',
             dashStyle: 'Dash'
             ,lineWidth:1
-            , color: "#910000"
+            , color: "#d83b3b"
             ,dataGrouping: { enabled: false }
 //            pointStart:graphData[0].time,
 //            pointInterval:1000*300
@@ -691,7 +466,7 @@ function onJsGraphDataLoad(series) {
             ,step: true
             ,lineWidth:0
             ,fillOpacity: 0.4
-            , color: "#606060"
+            , color: "#6a7379"
             ,pointPadding: 0
             ,groupPadding:0
             , tooltip: {
@@ -706,7 +481,7 @@ function onJsGraphDataLoad(series) {
             ,step: true
             ,lineWidth:0
             ,fillOpacity: 0.4
-            , color: "#B7B7B7"
+            , color: "#c0c7ce"
             ,pointPadding: 0
             ,groupPadding:0
             , tooltip: {
@@ -731,7 +506,7 @@ function onJsGraphDataLoad(series) {
             id: "hydration",
             type: 'spline',
             data: dataHyd
-            , color: "#2f7ed8"
+            , color: "#88b0ff"
             ,lineWidth:1
             , tooltip: {
             pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
