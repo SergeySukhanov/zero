@@ -34,16 +34,18 @@ YUI.add('vader-menu', function (Y) {
             show();
             container.setHTML('<div class="navbar navbar-inverse navbar-static-top"><div class="navbar-inner">'+
                 '<span class="brand" style="padding: 5px"><img src="img/zero_logo.png" height="40px" width="193px"></span>'+
-                '<ul class="nav" style="padding: 8px"><li id="menu_jsgraph"><a href="#">Immediately</a></li>'+
-                    '<li id="menu_qviframe"><a href="#">Custom</a></li>'+
-//                    '<li id="menu_jsgraph"><a href="#">JS:Graph</a></li>'+
+                '<ul class="nav" style="padding: 8px">'+
                     '</ul>'+
                 '<ul class="nav pull-right" id="nav_login_ul" style="padding: 8px"></ul>'+
                 '</div></div>');
             var nav_login_ul = Y.one("#nav_login_ul");
             nav_login_ul.setHTML('<li class="dropdown" >' +
                 '<a class="dropdown-toggle" data-toggle="dropdown" href="#">' + user.name + '&nbsp;<b class="caret"></b></a>' +
-                '<ul class="dropdown-menu"><li id="logout"><a href="#">logout</a><li class="divider"></li></ul>'
+                '<ul class="dropdown-menu">'+
+                '<li id="menu_jsgraph"><a href="#">Immediately</a></li>'+
+                '<li id="menu_qviframe"><a href="#">Custom</a></li>'+
+                '<li id="logout"><a href="#">logout</a><li class="divider"></li>'+
+                '</ul>'
             );
 
             Y.one('#logout').on('click', function(){
