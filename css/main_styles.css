@@ -156,6 +156,27 @@ text {
 }
 
 .smallGraph{
-	position:relative;
-	display:inline-block;
+	position: relative;
+display: inline-block;
+margin-top: 20px;
+margin-right: 4%;
+background: #f8f8f8;
+padding: 10px;
+width: 26%;
+height: 250px;
+color: #666666;
+}
+.smallGraph h1 {
+font-size: 27px !important;
+font-weight: 200;
+margin-bottom: -5px;
+margin-top: -7px;
+margin-left: 15px;
+}
+
+.first{
+	margin-left: 4%;
+}
+.smallGraph p {
+margin-left: 15px;
 }
