@@ -388,7 +388,7 @@
 				lineWidth : 2,
 				fillOpacity : 0.2,
 				color : '#f8981d',
-				tooltip : {
+				ltip : {
 					pointFormat : '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
 				   }
 			    }
@@ -403,7 +403,11 @@
 				color : "#d4523d",
 				dataGrouping : {
 					enabled : false
-				    }
+				   },
+				marker:{
+					symbol:url(/img/heart.png)
+				}
+				
 			   },
 		       
 			    {
@@ -412,7 +416,10 @@
 				type : 'spline',
 				dashStyle : 'ShortDot',
 				lineWidth : 2,
-				color:'#47b748'
+				color:'#47b748',
+				marker:{
+					symbol:url(/img/step.png)
+				}
 			    }, 
 			    {
 				name : "hydration",
@@ -422,6 +429,9 @@
 				data : dataHyd,
 				color : "#7292cb",
 				lineWidth : 2,
+				marker:{
+					symbol:url(/img/drop.png)
+				},
 				tooltip : {
 					pointFormat : '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
 				    }
@@ -437,7 +447,10 @@
 				color : '#f8981d',
 				tooltip : {
 					pointFormat : '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
-				   }
+				  },
+				marker:{
+					symbol:url(/img/circle.png)
+				}
 			    }
 			 ];
 
