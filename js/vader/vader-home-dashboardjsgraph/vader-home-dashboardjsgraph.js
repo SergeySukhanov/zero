@@ -27,9 +27,15 @@ YUI.add('vader-home-dashboardjsgraph', function (Y) {
             var container = Y.one('#body');
             container.setHTML(
                 '<div id="placeholder" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'+
-                '<div id="placeholderSleep" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'+
-                '<div id="placeholderEating" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'+
-                '<div id="placeholderStress" class="demo-placeholder" style="float:left; width:100%; height:525px;"></div>'
+                '<div><h1>Sleep Efficiency 33%</h1><p>Last night slept for 3hr18m</p>'+
+                   '<div id="placeholderSleep" class="demo-placeholder" style="float:left; width:30%; height:200px;"></div>'+
+                '</div>'+
+                '<div><h1>Eating Habits</h1><p>Higt Carb diet</p>'+
+                   '<div id="placeholderEat" class="demo-placeholder" style="float:left; width:30%; height:200px;"></div>'+
+                '</div>'+
+                '<div><h1>Stress vs Wellness</h1><p>Recommend the members to take a vacation</p>'+
+                   '<div id="placeholderStress" class="demo-placeholder" style="float:left; width:30%; height:200px;"></div>'+
+                '</div>'
 //                    +
 //                '<div class="clearfix"></div>' +
 //                '<div id="overview" class="demo-placeholder" style="float:left;width:90%; height:125px;"></div>'
