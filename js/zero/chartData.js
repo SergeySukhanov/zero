@@ -24,8 +24,11 @@ function onJsGraphDataLoad(series) {
     var calEvent = [];
 
     var prevStress =0;
+    var currentDate = new Date().getTime();
+    var prevDay = currentDate - 864000000;
     for (var i = 0; i <= dataLength; ++i) {
         var measurement = graphData[i];
+        if (measurement.time<prevDay) continue;
 //        dataHR.push(measurement.heartRate);
         dataHR.push([measurement.time, measurement.heartRate]);
 //        dataStp.push(measurement.steps);
