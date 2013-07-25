@@ -8,14 +8,14 @@
 
 <link rel="stylesheet" media="screen" href="css/main_styles.css"/>
 
-<script src="js/yui_config.js"></script>
+<script src="js/thirdparty/yui_config.js"></script>
 <script>
     YUI_setConfig('');
 </script>
-<script src="js/flot/jquery.js"></script>
+<script src="js/thirdparty/jquery-1.9.1.js"></script>
 <!--<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.js"></script>-->
-<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="js/thirdparty/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/thirdparty/bootstrap.js"></script>
 
 <!--[if lte IE 8]>&lt;!&ndash;<script language="javascript" type="text/javascript" src="js/flot/excanvas.min.js"></script><![endif]&ndash;&gt;-->
 <!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.js"></script>-->
@@ -604,19 +604,19 @@ function onJsGraphDataLoad(series) {
             ]
         },
 
-//        plotOptions: {
-//            series: {
-//                dashStyle: 'Dash'
-////                ,compare: 'percent'
-//
-//            }
-//        },
+        plotOptions: {
+           series: {
+                dashStyle: 'Dash'
+                ,compare: 'percent'
 
-//        tooltip: {
-//            pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b><br/>',
-//            valueDecimals: 2
-//            ,tooltipPoints: 1
-//        },
+            }
+        },
+
+       tooltip: {
+           pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b><br/>',
+            valueDecimals: 2
+           ,tooltipPoints: 1
+        },
 
         series: data
     });
