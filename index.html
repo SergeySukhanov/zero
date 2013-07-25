@@ -360,7 +360,7 @@
 				name : "heart rate",
 				data : dataHR,
 				type : 'spline',
-				dashStyle : 'Dash',
+				dashStyle : 'Dot',
 				lineWidth : 1,
 				color : "#d83b3b",
 				dataGrouping : {
@@ -372,12 +372,13 @@
 				name : "steps",
 				data : dataStp,
 				type : 'spline',
-				dashStyle : 'Dash',
+				dashStyle : 'Dot',
 				lineWidth : 1
 			    }, 
 			    {
 				name : "hydration",
 				id : "hydration",
+				dashStyle : 'Dot',
 				type : 'spline',
 				data : dataHyd,
 				color : "#88b0ff",
@@ -391,7 +392,8 @@
 				id : "stress",
 				type : 'spline',
 				data : dataStressGr,
-				lineWidth : 0,
+				dashStyle : 'Dot',
+				lineWidth : 1,
 				fillOpacity : 0.2,
 				color : '#FF5050',
 				tooltip : {
