@@ -26,7 +26,7 @@ YUI.add('vader-home-dashboardjsgraph', function (Y) {
 
             var container = Y.one('#body');
             container.setHTML(
-                '<div id="placeholder" class="demo-placeholder" style="float:left; width:100%; height:410px;"></div>'+
+                '<div id="placeholder" class="demo-placeholder" style="float:left; margin-left:50px; width:91%; height:410px;"></div>'+
                 '<div class="smallGraph first"><h1>Sleep Efficiency 33%</h1><p>Last night slept for 3hr18m</p>'+
                    '<div id="placeholderSleep" class="demo-placeholder" style="float:left; width:100%; height:140px;"></div>'+
                 '</div>'+
