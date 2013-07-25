@@ -16,15 +16,6 @@
 		<!--<script language="javascript" type="text/javascript" src="js/jquery-1.9.1.js"></script>-->
 		<script src="js/thirdparty/jquery-ui-1.10.3.custom.min.js"></script>
 		<script src="js/thirdparty/bootstrap.js"></script>
-
-		<!--[if lte IE 8]>&lt;!&ndash;<script language="javascript" type="text/javascript" src="js/flot/excanvas.min.js"></script><![endif]&ndash;&gt;-->
-		<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.js"></script>-->
-		<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.selection.js"></script>-->
-		<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.time.js"></script>-->
-		<!--<script language="javascript" type="text/javascript" src="js/flot/jquery.flot.threshold.js"></script>-->
-		<!--<script language="javascript" type="text/javascript" src="http://alexb.domain.corp/QvAJAXZfc/htc/QvAjax.js"></script>-->
-		<!--<script src="js/highstock/highstock.js"></script>-->
-
 		<script src="//yui.yahooapis.com/3.11.0/build/yui/yui-min.js"></script>
 	</head>
 	<body>
@@ -128,56 +119,6 @@
 		var DELAY = 3000;
 
 		var animateID = 0;
-
-		/*
-		 // hide everything when doc loads
-		 $(document).ready(function(){
-		 $fog.hide();
-		 $form.hide();
-		 $thx.hide();
-		 });
-
-		 // show the form when the button is clicked
-		 // tough to select the SVG element directly, so grab it first, then stick it in jquery context; clever, no? ;)
-		 var button = document.getElementById("show_form_btn");
-		 $(button).click( function(){
-		 $fog.fadeIn(FADE);
-		 $form.fadeIn(FADE);
-		 });
-		 // ok now
-		 $input.focus( function() {
-		 $splain.text(" (Hit return to submit)");
-		 });
-
-		 // hide form, show thx
-		 // then clear it all
-		 $form.submit( function(event){
-		 event.preventDefault();
-		 var fw = $form.width();
-		 var fh = $form.height();
-		 $form.fadeOut(100, function() {
-		 $(this).text("Thanks. We'll be in touch.").fadeIn(100).delay(DELAY).fadeOut(FADE);
-		 $form.width( fw );
-		 $form.height( fh );
-		 $form.delay(DELAY).fadeOut(FADE);
-		 $fog.delay(DELAY).fadeOut(FADE);
-		 });
-		 });
-
-		 // hide the form if click out anywhere else
-		 $fog.click( function(){
-		 $fog.fadeOut(FADE);
-		 $form.fadeOut(FADE);
-		 $thx.fadeOut(FADE);
-		 });
-
-		 // animate
-		 // start with random velocities
-		 var velos = [];
-		 for ( i = 0; i < pies.length; i++ ) {
-		 velos[i] = new Vect( rnd_bmt() );
-		 }
-		 */
 
 		function stopAnimation() {
 			clearInterval(animateID);
@@ -411,31 +352,6 @@
 				dataHyd.push([measurement.time, measurement.hydration]);
 
 				dataStressGr.push([measurement.time, measurement.stress]);
-				//        if(measurement.stress < 25){
-				//            dataStressGr.push([measurement.time, measurement.stress]);
-				//            if(prevStress==1) dataStressYl.push([measurement.time, measurement.stress]);
-				//                         else dataStressYl.push([measurement.time, null]);
-				//            if(prevStress==2) dataStressRd.push([measurement.time, measurement.stress]);
-				//                         else dataStressRd.push([measurement.time, null]);
-				//
-				//            dataStressRd.push([measurement.time, null]);
-				//            prevStress = 0;
-				//        } else if (measurement.stress < 50){
-				//            if(prevStress==0) dataStressGr.push([measurement.time, measurement.stress]);
-				//                        else dataStressGr.push([measurement.time, null]);
-				//            dataStressYl.push([measurement.time, measurement.stress]);
-				//            if(prevStress==2) dataStressRd.push([measurement.time, measurement.stress]);
-				//            else dataStressRd.push([measurement.time, null]);
-				//            prevStress = 1;
-				//        } else {
-				//            if(prevStress==0) dataStressGr.push([measurement.time, measurement.stress]);
-				//            else dataStressGr.push([measurement.time, null]);
-				//            if(prevStress==1) dataStressYl.push([measurement.time, measurement.stress]);
-				//            else dataStressYl.push([measurement.time, null]);
-				//            dataStressRd.push([measurement.time, measurement.stress]);
-				//            prevStress = 2;
-				//        }
-				//        calEvent.push([measurement.time, (measurement.cEvent ? -10 : 0)]);
 			}
 
 			data = [{
@@ -478,12 +394,7 @@
 					//                pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y == 0?"no":"yes"}</b><br/>'
 					pointFormat : ''
 				}
-			},
-			//        {
-			//            name: "calendar event",
-			//            data: calEvent
-			//        },
-			{
+			}, {
 				name : "steps",
 				data : dataStp,
 				type : 'spline',
@@ -510,23 +421,7 @@
 				tooltip : {
 					pointFormat : '<span style="color:{series.color}">{series.name}</span>: <b>{point.y} %</b><br/>'
 				}
-				//            ,threshold:50
-			}
-			//        ,{
-			//            id: "stress2",
-			//            linkedTo:'stress',
-			//            type: 'area',
-			//            data: dataStressYl
-			//            ,lineWidth:1
-			//        }
-			//        ,{
-			//            id: "stress3",
-			//            linkedTo:'stress',
-			//            type: 'area',
-			//            data: dataStressRd
-			//            ,lineWidth:1
-			//        }
-			];
+			}];
 
 			//    var yAxisOptions = [];
 			//    var colors = Highcharts.getOptions().colors;
@@ -556,34 +451,13 @@
 					colors : ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce', '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'],
 					rangeSelector:{
 						enabled:false
-					}
-					// , rangeSelector: {
-					// selected: 0,
-					// inputEnabled: false, // it supports only days
-					// buttons: [{
-					// type: 'day',
-					// count: 1,
-					// text: '1d'
-					// }, {
-					// type: 'week',
-					// count: 1,
-					// text: '1w'
-					// }, {
-					// type: 'month',
-					// count: 1,
-					// text: '1m'
-					// }, {
-					// type: 'ytd',
-					// text: 'YTD'
-					// }, {
-					// type: 'year',
-					// count: 1,
-					// text: '1y'
-					// }, {
-					// type: 'all',
-					// text: 'All'
-					// }]
-					// },
+					},
+					navigator:{
+						enabled:false
+					},
+					scrollbar:{
+						enabled:false
+					},
 
 					yAxis : {
 						//            allowDecimals:false,
