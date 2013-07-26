@@ -1,185 +1,185 @@
 [
-{"evtTime":"1370239200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370242800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370246400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370264400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370268000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370278800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370282400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1370289600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370296800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370325600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370329200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370332800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370350800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370354400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370365200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370368800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370383200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370412000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370415600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370419200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370437200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370440800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370451600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370455200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370469600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370498400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370502000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370505600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370523600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370527200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370538000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370541600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1370548800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370556000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370584800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370588400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370592000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370610000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370613600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370624400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370628000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370642400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370671200189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1370728800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370736000189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1370822400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370844000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370847600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370851200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370869200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370872800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370883600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370887200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1370894400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370901600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370930400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370934000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370937600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370955600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1370959200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1370970000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370973600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1370988000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371016800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371020400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371024000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371042000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371045600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371056400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371060000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371074400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371103200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371106800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371110400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371128400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371132000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371142800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371146400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1371153600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371160800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371189600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371193200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371196800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371214800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371218400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371229200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371232800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371247200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371276000189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1371333600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371340800189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1371427200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371448800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371452400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371456000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371474000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371477600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371488400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371492000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1371499200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371506400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371535200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371538800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371542400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371560400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371564000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371574800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371578400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371592800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371621600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371625200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371628800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371646800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371650400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371661200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371664800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371679200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371708000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371711600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371715200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371733200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371736800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371747600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371751200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1371758400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371765600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371794400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371798000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371801600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371819600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1371823200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1371834000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371837600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371852000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371880800189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1371938400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1371945600189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1372032000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372053600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372057200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372060800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372078800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1372082400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372093200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372096800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1372104000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372111200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372140000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372143600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372147200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372165200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1372168800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372179600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372183200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372197600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372226400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372230000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372233600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372251600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1372255200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372266000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372269600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372284000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372312800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372316400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372320000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372338000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1372341600189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372352400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372356000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
-,{"evtTime":"1372363200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372370400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372399200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372402800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372406400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372424400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
-,{"evtTime":"1372428000189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
-,{"evtTime":"1372438800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372442400189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372456800189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372485600189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
-,{"evtTime":"1372543200189", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
-,{"evtTime":"1372550400189", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+{"evtTime":"1370239200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370242800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370246400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370264400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370268000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370278800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370282400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1370289600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370296800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370325600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370329200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370332800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370350800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370354400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370365200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370368800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370383200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370412000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370415600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370419200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370437200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370440800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370451600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370455200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370469600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370498400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370502000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370505600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370523600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370527200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370538000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370541600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1370548800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370556000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370584800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370588400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370592000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370610000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370613600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370624400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370628000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370642400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370671200582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1370728800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370736000582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1370822400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370844000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370847600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370851200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370869200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370872800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370883600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370887200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1370894400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370901600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370930400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370934000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370937600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370955600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1370959200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1370970000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370973600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1370988000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371016800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371020400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371024000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371042000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371045600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371056400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371060000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371074400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371103200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371106800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371110400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371128400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371132000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371142800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371146400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1371153600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371160800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371189600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371193200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371196800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371214800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371218400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371229200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371232800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371247200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371276000582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1371333600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371340800582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1371427200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371448800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371452400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371456000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371474000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371477600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371488400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371492000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1371499200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371506400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371535200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371538800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371542400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371560400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371564000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371574800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371578400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371592800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371621600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371625200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371628800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371646800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371650400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371661200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371664800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371679200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371708000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371711600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371715200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371733200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371736800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371747600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371751200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1371758400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371765600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371794400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371798000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371801600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371819600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1371823200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1371834000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371837600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371852000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371880800582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1371938400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1371945600582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1372032000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372053600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372057200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372060800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372078800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1372082400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372093200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372096800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1372104000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372111200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372140000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372143600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372147200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372165200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1372168800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372179600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372183200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372197600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372226400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372230000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372233600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372251600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1372255200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372266000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372269600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372284000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372312800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372316400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372320000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372338000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1372341600582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372352400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372356000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Firehouse Mini Park", }
+,{"evtTime":"1372363200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372370400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372399200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372402800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372406400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372424400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Starbucks", }
+,{"evtTime":"1372428000582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"18th Ave", "valueName":"Seattle Science foundation", }
+,{"evtTime":"1372438800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372442400582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372456800582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372485600582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
+,{"evtTime":"1372543200582", "x":"47.612991", "y":"-122.315283", "state":"NY", "city":"Seattle", "address":"19th Ave", "valueName":"", }
+,{"evtTime":"1372550400582", "x":"47.659426", "y":"-122.294264", "state":"NY", "city":"Seattle", "address":"W Clark Rd", "valueName":"Corp Yard 2", }
 ]
