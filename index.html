@@ -388,11 +388,19 @@ var currentMonth = month[currentTime.getMonth()];
 			var dataStressYl = [];
 			var dataStressRd = [];
 			var calEvent = [];
+			var dataSleepSmall = [];
+			var dataHydSmall = [];
+			var dataStressSmall = [];
 
 			var prevStress = 0;
 			    var start = Math.floor(dataLength*0.97);
-                for (var i = start; i <= dataLength; ++i) {
+                for (var i = 0; i <= dataLength; ++i) {
 				var measurement = graphData[i];
+				if (i>start) {
+					dataSleepSmall.push([measurement.time, measurement.deepSleep ? 20 : 0]);
+					dataHydSmall.push([measurement.time, measurement.hydration]);
+					dataStressSmall.push([measurement.time, measurement.stress]);
+				}
 				//        dataHR.push(measurement.heartRate);
 				dataHR.push([measurement.time, measurement.heartRate]);
 				//        dataStp.push(measurement.steps);
@@ -406,7 +414,7 @@ var currentMonth = month[currentTime.getMonth()];
             data1 = [
 			  {
 				name : "steps",
-				data : dataStp,
+				data : dataSleepSmall,
 				type : 'spline',
 				dashStyle : 'ShortDot',
 				lineWidth : 2,
@@ -419,7 +427,7 @@ var currentMonth = month[currentTime.getMonth()];
 				id : "hydration",
 				dashStyle : 'ShortDot',
 				type : 'spline',
-				data : dataHyd,
+				data : dataHydSmall,
 				color : "#7292cb",
 				lineWidth : 2,
 				tooltip : {
@@ -432,7 +440,7 @@ var currentMonth = month[currentTime.getMonth()];
 				name : "stress",
 				id : "stress",
 				type : 'spline',
-				data : dataStressGr,
+				data : dataStressSmall,
 				dashStyle : 'ShortDot',
 				lineWidth : 2,
 				fillOpacity : 0.2,
@@ -525,7 +533,8 @@ var currentMonth = month[currentTime.getMonth()];
 
 					colors : ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce', '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'],
 					rangeSelector:{
-						enabled:true
+						enabled:true,
+						selected:0
 					},
 					navigator:{
 						enabled:false
