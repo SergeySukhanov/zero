@@ -55,13 +55,16 @@ var currentMonth = month[currentTime.getMonth()];
   // Convert an hours component of "0" to "12"
   currentHours = ( currentHours == 0 ) ? 12 : currentHours;
 
-  // Compose the string for display
-  var currentTimeString = currentDay + " " + currentMonth + " " + currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
-
+  var currTime = currentHours + ":" + currentMinutes + ":" + currentSeconds;
+  var currDate = timeOfDay + " " + currentDay + " " + currentMonth;
   // Update the time display
-  var clock = document.getElementById("clock");
-  if(clock != null){
-  	clock.innerHTML = currentTimeString;
+  var time = document.getElementById("time");
+  var date = document.getElementById("date");
+  if(time != null){
+  	time.innerHTML = currTime;
+  }
+  if (date!=null) {
+  date.innerHtml = currDate;
   }
 }
 
