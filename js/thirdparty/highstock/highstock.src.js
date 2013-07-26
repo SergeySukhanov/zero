@@ -8359,7 +8359,7 @@ Axis.prototype = {
 
 		// move plot lines and bands
 		each(axis.plotLinesAndBands, function (plotLine) {
-			plotLine.render();
+			if (plotLine) plotLine.render();
 		});
 
 		// mark associated series as dirty and ready for redraw
