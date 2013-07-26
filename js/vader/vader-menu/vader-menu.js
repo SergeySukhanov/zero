@@ -35,6 +35,7 @@ YUI.add('vader-menu', function (Y) {
             container.setHTML('<div class="navbar navbar-inverse navbar-static-top"><div class="navbar-inner">'+
                 '<span class="brand" style="padding: 5px"><img src="img/zero_logo.png" height="40px" width="193px"></span>'+
                 '<ul class="nav" style="padding: 8px">'+
+                    '<li id="clock"></li>'+
                     '</ul>'+
                 '<ul class="nav pull-right" id="nav_login_ul" style="padding: 8px"></ul>'+
                 '</div></div>');
