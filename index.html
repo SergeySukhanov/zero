@@ -534,7 +534,32 @@ var currentMonth = month[currentTime.getMonth()];
 					colors : ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce', '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'],
 					rangeSelector:{
 						enabled:true,
-						selected:0
+						selected:0,
+						inputEnabled:false,
+						buttons: [{
+							type: 'day',
+							count: 1,
+							text: '1 day'
+						},{
+							type: 'week',
+							count: 1,
+							text: '1 week'
+						},{
+							type: 'month',
+							count: 1,
+							text: '1 month'
+						}, 
+							type: 'month',
+							count: 6,
+							text: '6 months'
+						}, {
+							type: 'year',
+							count: 1,
+							text: '1 year'
+						}, {
+							type: 'all',
+							text: 'All'
+						}]
 					},
 					navigator:{
 						enabled:false
