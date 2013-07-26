@@ -27,6 +27,7 @@ function updateClock ( )
   var currentMinutes = currentTime.getMinutes ( );
   var currentSeconds = currentTime.getSeconds ( );
   var currentDay = currentTime.getDate();
+  var currentYear = currentTime.getFullYear();
   var month = new Array();
      month[0]="January";
 month[1]="February";
@@ -56,7 +57,7 @@ var currentMonth = month[currentTime.getMonth()];
   currentHours = ( currentHours == 0 ) ? 12 : currentHours;
 
   var currTime = currentHours + ":" + currentMinutes + ":" + currentSeconds;
-  var currDate = timeOfDay + " " + currentDay + " " + currentMonth;
+  var currDate = timeOfDay + " " + currentMonth + " " + currentDay + ", " + currentYear;
   // Update the time display
   var time = document.getElementById("time");
   var date = document.getElementById("date");
