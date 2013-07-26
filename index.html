@@ -565,8 +565,17 @@ var currentMonth = month[currentTime.getMonth()];
 					},
 					navigator:{
 						enabled:true,
-						maskFill:'rgba(0,0,0,1)',
-						height:5
+						maskFill:'rgba(255,255,255,1)',
+						height:5,
+						series:{
+							lineWidth:0,
+							type:'spline',
+							color:'#000000'},
+						xAxis:{
+							labels:{
+								enabled:false
+						}
+                }
 					},
 					scrollbar: {
 						barBackgroundColor: 'gray',
