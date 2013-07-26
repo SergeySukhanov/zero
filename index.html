@@ -513,6 +513,9 @@ var currentMonth = month[currentTime.getMonth()];
 
 			//    var yAxisOptions = [];
 			//    var colors = Highcharts.getOptions().colors;
+			var generalTooltip = {
+						xDateFormat: '%b %e, %l %p'
+			}
 
 			try {
 
@@ -593,7 +596,7 @@ var currentMonth = month[currentTime.getMonth()];
 							enabled:false
 						}
 					},
-
+					tooltip:generalTooltip,
 					series : data
 				});
 				
@@ -626,7 +629,7 @@ var currentMonth = month[currentTime.getMonth()];
 					scrollbar:{
 						enabled:false
 					},
-
+					tooltip:generalTooltip,
 					xAxis : {
 						gridLineWidth:1,
 						plotLines : [{
@@ -684,7 +687,7 @@ var currentMonth = month[currentTime.getMonth()];
 					scrollbar:{
 						enabled:false
 					},
-
+					tooltip:generalTooltip,
 					xAxis : {
 						gridLineWidth:1,
 						plotLines : [{
@@ -730,7 +733,7 @@ var currentMonth = month[currentTime.getMonth()];
 						layout : 'vertical'
 
 					},
-
+					tooltip:generalTooltip,
 					colors : ['#2f7ed8', '#0d233a', '#8bbc21', '#910000', '#1aadce', '#492970', '#f28f43', '#77a1e5', '#c42525', '#a6c96a'],
 					rangeSelector:{
 						enabled:false
